@@ -1,0 +1,695 @@
+body{
+    background: rgb(1, 10, 49);
+   
+   
+
+}
+
+.calcu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+
+
+.container{
+    width: 600px;
+    margin: 50px;
+    border-radius: 20px;
+background: rgb(0, 0, 0);
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    
+}
+
+.allthings{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+   padding-left: 10px;
+    border-radius: 10px;
+    width: 500px;
+    margin-bottom: 10px;
+    background: rgb(5, 5, 5);
+}
+
+
+.buttonspanel{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+
+
+}
+
+
+
+.square{
+    width: 500px;
+    height: 500px;
+    background: rgb(138, 192, 12);
+    margin-top: 60px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    animation-name: squarepantalla;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;  
+ 
+} 
+
+@keyframes squarepantalla {
+    
+    0%{
+        background: rgb(138, 192, 12);
+    }
+    10%{
+        box-shadow: inset 0 0 15px 10px rgba(51, 51, 51, 0.521);
+    }
+    30%{
+        background: rgb(86, 119, 8);
+    }
+    60%{
+        background: rgb(138, 192, 12);
+    }
+    100%{
+        box-shadow: inset 0 0 15px 10px rgba(51, 51, 51, 0.521);
+    
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+.colorchange{
+
+    width: 500px;
+    height: 500px;
+    background: rgb(13, 207, 198);
+    margin-top: 60px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    animation-name: squarecambio;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;  
+}
+@keyframes squarecambio {
+    
+    0%{
+        background: rgb(13, 207, 198);
+    }
+    10%{
+        box-shadow: inset 0 0 15px 10px rgba(51, 51, 51, 0.521);
+    }
+    30%{
+        background: rgb(8, 145, 138);
+    }
+    60%{
+        background: rgb(13, 207, 198);
+    }
+    100%{
+        box-shadow: inset 0 0 15px 10px rgba(51, 51, 51, 0.521);
+    
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+.pritext{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    margin-left: 30px;
+    visibility: visible;
+}
+.pripra{
+    font-family: 'Press Start 2P', cursive;
+    font: 20px;
+    margin-left: 30px;
+    visibility: visible;
+}
+.pritextenconder{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    margin-left: 30px;
+    visibility: hidden;
+}
+.pripraesconder{
+    font-family: 'Press Start 2P', cursive;
+    font: 20px;
+    margin-left: 30px;
+    visibility: hidden;
+}
+
+
+
+
+.resultadotext{
+
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 30px;
+    visibility: hidden;
+    
+}
+.resultadotextver{
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 30px;
+    visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bone{
+    display: flex;
+    flex-direction: column;
+}
+
+.bsuma{
+background: rgb(43, 219, 37);
+
+border-radius: 50px;
+width: 80px;
+height: 80px;
+border-color: 5px rgb(255, 255, 255);
+border: 2px;
+
+animation-name: circleoneb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+.bsuma:hover{
+   
+    box-shadow: inset 0 0 15px 10px rgba(51, 51, 51, 0.521);
+}
+.fa-plus{
+    font-size: 30px;
+    color: rgb(250, 250, 250);
+}
+
+@keyframes circleoneb {
+    
+    0%{
+        box-shadow: inset 0 0 15px 10px rgb(80, 238, 7);
+    }
+    10%{
+        background: rgb(52, 155, 5);
+    }
+    30%{
+        box-shadow: inset 0 0 15px 10px rgb(80, 238, 7);
+    }
+    60%{
+        background: rgb(52, 155, 5);
+    }
+    100%{
+        box-shadow: inset 0 0 15px 10px rgb(80, 238, 7);
+    
+    }
+    }
+
+
+
+
+
+
+
+
+.btwo{
+    display: flex;
+    flex-direction: column;  
+}
+
+
+.bresta{
+    background: rgb(255, 104, 4);
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    border-color: 5px rgb(255, 255, 255);
+    border: 2px;
+    animation-name: circletwob;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;  
+}
+.bresta:hover{
+    box-shadow: inset 0 0 15px 10px rgba(51, 51, 51, 0.521);
+}
+
+.fa-minus{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+@keyframes circletwob {
+    
+    0%{
+        box-shadow: inset 0 0 15px 10px rgb(255, 115, 0);
+    }
+    10%{
+        background: rgb(173, 71, 3);
+    }
+    30%{
+        box-shadow: inset 0 0 15px 10px rgb(255, 115, 0);
+    }
+    60%{
+        background: rgb(173, 71, 3);
+    }
+    100%{
+        box-shadow: inset 0 0 15px 10px rgb(255, 115, 0);
+    }
+    }
+
+
+
+
+
+
+
+
+.bthree{
+    display: flex;
+    flex-direction: column; 
+
+}
+
+
+.bmulti{
+    background: rgb(7, 160, 248);
+border-radius: 50px;
+width: 80px;
+height: 80px;
+border-color: 5px rgb(9, 177, 255);
+border: 2px; 
+animation-name: circlethreeb;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;  
+}
+.bmulti:hover{
+    box-shadow: inset 0 0 15px 10px rgba(51, 51, 51, 0.521);
+}
+.fa-times{
+    font-size: 30px;
+ color:rgb(255, 255, 255) ;   
+}
+
+
+@keyframes circlethreeb {
+    
+    0%{
+        box-shadow: inset 0 0 15px 10px rgb(0, 119, 255);
+    }
+    10%{
+        background: rgb(3, 76, 160);
+    }
+    30%{
+        box-shadow: inset 0 0 15px 10px rgb(0, 119, 255);
+    }
+    60%{
+        background: rgb(3, 76, 160);
+    }
+    100%{
+        box-shadow: inset 0 0 15px 10px rgb(0, 119, 255);
+    
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+.bfour{
+
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.bdivi{
+    background: rgb(255, 7, 7);
+border-radius: 50px;
+width: 80px;
+height: 80px;
+border-color: 5px rgb(255, 255, 255);
+border: 2px;
+animation-name: circlefourb;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;  
+}
+.bdivi:hover{
+    box-shadow: inset 0 0 15px 10px rgba(51, 51, 51, 0.521);
+}
+.fa-divide{
+    font-size: 30px;
+ color:rgb(255, 255, 255) ; 
+}
+
+
+
+@keyframes circlefourb {
+    
+    0%{
+        box-shadow: inset 0 0 15px 10px rgb(255, 17, 0);
+    }
+    10%{
+        background: rgb(134, 1, 1);
+    }
+    30%{
+        box-shadow: inset 0 0 15px 10px rgb(255, 17, 0);
+    }
+    60%{
+        background: rgb(134, 1, 1);
+    }
+    100%{
+        box-shadow: inset 0 0 15px 10px rgb(255, 17, 0);
+    
+    }
+    }
+
+
+
+
+
+
+
+
+.entrada{
+    background: rgb(34, 34, 34);
+    width: 470px;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    color: rgb(141, 141, 141);
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bequal{
+  margin-top: 20px;
+    background: rgb(236, 236, 236);
+    
+    width: 170px;
+    height: 60px;
+    border-color: rgb(137, 231, 30);
+    border: 2px;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+.bequal:hover{
+    box-shadow: inset 0 0 15px 10px rgba(51, 51, 51, 0.521);
+    
+}
+.fa-equals{
+  
+    font-size: 30px;
+    color:rgb(2, 155, 122) ; 
+
+}
+
+.resultado{
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 30px;
+}
+
+.resultadoinv{
+    font-size: 20px;
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 30px;
+}
+
+
+
+
+@media(max-width:700px){
+
+
+   
+
+.container{
+    width: 450px;
+    margin: 50px;
+    border-radius: 20px;
+background: rgb(0, 0, 0);
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    
+}
+
+.allthings{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+   padding-left: 10px;
+    border-radius: 10px;
+    width: 400px;
+    margin-bottom: 10px;
+    background: rgb(5, 5, 5);
+}
+
+
+.buttonspanel{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+
+
+}
+
+
+
+.square{
+    width: 370px;
+    height: 370px;
+    background: rgb(138, 192, 12);
+    margin-top: 60px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    animation-name: squarepantalla;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;  
+ 
+}
+
+
+
+.pritext{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.pripra{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    margin-left: 20px;
+}
+.resultadotext{
+
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 20px;
+    
+}
+
+
+
+
+.bsuma{
+    background: rgb(43, 219, 37);
+    
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    border-color: 5px rgb(255, 255, 255);
+    border: 2px;
+    
+    }
+    .bresta{
+        background: rgb(255, 104, 4);
+        border-radius: 50px;
+        width: 70px;
+        height: 70px;
+        border-color: 5px rgb(255, 255, 255);
+        border: 2px;
+    }
+
+    .bmulti{
+        background: rgb(7, 160, 248);
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    border-color: 5px rgb(9, 177, 255);
+    border: 2px;
+    }
+
+
+    
+.bdivi{
+    background: rgb(255, 7, 7);
+border-radius: 50px;
+width: 70px;
+height: 70px;
+border-color: 5px rgb(255, 255, 255);
+border: 2px;
+}
+
+
+
+
+.colorchange{
+
+    width: 370px;
+    height: 370px;
+    background: rgb(13, 207, 198);
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    animation-name: squarecambio;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;  
+}
+
+
+
+
+.entrada{
+    background: rgb(34, 34, 34);
+    margin: 0px 15px;
+    width: 330px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    color: rgb(141, 141, 141);
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bequal{
+  margin-top: 20px;
+    background: rgb(236, 236, 236);
+    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+    margin-left: 20px;
+    border-color: rgb(137, 231, 30);
+    border: 2px;
+    font-size: 30px;
+
+}
+
+
+
+.resultado{
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 30px;
+}
+
+
+.resultadoinv{
+    font-size: 15px;
+    font-family: 'Press Start 2P', cursive;
+    margin-left: 30px;
+}
+
+
+
+
+
+
+
+
+    
+}
+
+
